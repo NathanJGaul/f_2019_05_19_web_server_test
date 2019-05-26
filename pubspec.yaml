@@ -1,0 +1,29 @@
+name: f_2019_05_19_web_server_test
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  http_server: ^0.9.8+1
+  webview_flutter: ^0.3.7+1
+  path_provider: ^1.1.0
+  flutter_webview_plugin: ^0.3.5
+  url_launcher: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
